@@ -1,5 +1,7 @@
 Airline Ticketing System
+
 Team 7, Nguyen Chau, Jatesh Joshi, Tarif Khan
+
 Team members working on the proposal: Nguyen Chau, Jatesh Joshi, Tarif Khan
 
 Problem Statement: 
@@ -15,7 +17,6 @@ High-Level Description of Solution:
 The Airline ticketing is a Java-based application. Our goal is to streamline the process of booking and managing airline tickets. The system will provide users with a user-friendly interface to search for flights, book tickets, and manage various aspects of their reservations such as flight cancellation, changing reservations, etc.
 
 Functionality:
-
 Primary functionalities are as follows:
 
 i. User profile creation: Users will input their name, email, birthdate, and passport number to create their profile.
@@ -25,7 +26,6 @@ ii. Flight search and booking: Users will be able to search for flights based on
 iii. Reservation management: After booking, users will be able to cancel or change their reservation.
 
 Operations:
-
 Here are the operations our users will be able to perform:
 
 Create profile

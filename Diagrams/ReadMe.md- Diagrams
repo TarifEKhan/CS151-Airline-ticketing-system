@@ -1,10 +1,10 @@
-|  [UserCase](https://www.google.com/search?client=safari&rls=en&q=what+does+a+usercase+diargams&ie=UTF-8&oe=UTF-8) |-> It is a graphical depiction of possible user interactions with the system                                                                                   	
+|  UserCase diagram |-> It is a graphical depiction of possible user interactions with the system                                                                                   	
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
-| [Class Diagram]   |-> It is used to model the objects that make up the system and to display the relationships  between the objects and classes.    
+| Class Diagram     |-> It is used to model the objects that make up the system and to display the relationships  between the objects and classes.    
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
 |   		
-| Sequence Diagram |-> It shows us how and in what order a group of objects work together and how operations  are carried out.   
+| Sequence Diagram  |-> It shows us how and in what order a group of objects works together and how operations  are carried out.   
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
 |   	
-| State Diagram    |-> It models the behavior of a single object, specifying the sequence of events that an object goes  through during its lifetime in response to external stimuli.
+| State Diagram     |-> It models the behavior of a single object, specifying the sequence of events that an object goes  through during its lifetime in response to external stimuli.
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

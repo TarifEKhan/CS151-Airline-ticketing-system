@@ -1,0 +1,4 @@
+| [Use case diagram](https://github.com/TarifEKhan/CS151-Airline-ticketing-system/blob/Tarif-Khan/diagrams/usecase%20diagram.png). 	| The usecase diagram shows the main usecases of the project                                                	|
+| [State diagram](https://github.com/TarifEKhan/CS151-Airline-ticketing-system/blob/Tarif-Khan/diagrams/State%20diagram.png).    	| The state diagram shows the behavior of an object when the user interacts with it                         	|
+| [Sequence diagram](https://github.com/TarifEKhan/CS151-Airline-ticketing-system/blob/Tarif-Khan/diagrams/Sequence%20diagram.png). 	| The sequence diagram shows the interaction sequence between a customer and the airline reservation system 	|
+| [Class diagram](https://github.com/TarifEKhan/CS151-Airline-ticketing-system/blob/Tarif-Khan/diagrams/class%20diagram.png).    	| The class diagram shows the main classes of the airline reservation system.                               	|

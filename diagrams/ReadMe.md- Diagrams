@@ -1,0 +1,10 @@
+|  [UserCase diagram] (https://github.com/TarifEKhan/CS151-Airline-ticketing-system/assets/147086359/4f71e2d3-314e-4b25-962b-0291a78d4c32) |-> It is a graphical depiction of possible user interactions with the system                                                                                   	
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+| [Class Diagram] (https://github.com/TarifEKhan/CS151-Airline-ticketing-system/assets/147086359/b0b73101-fb59-483c-aafd-4ed75fa31a4b)     |-> It is used to model the objects that make up the system and to display the relationships  between the objects and classes.    
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+|   		
+| [Sequence Diagram] (https://github.com/TarifEKhan/CS151-Airline-ticketing-system/assets/147086359/71c2865a-123e-4caa-ba45-d458e480ef27)  |-> It shows us how and in what order a group of objects works together and how operations  are carried out.   
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+|   	
+| [State Diagram] (https://github.com/TarifEKhan/CS151-Airline-ticketing-system/assets/147086359/cc4c16b2-5292-4a75-ba6f-57ba2f2efd69)     |-> It models the behavior of a single object, specifying the sequence of events that an object goes  through during its lifetime in response to external stimuli.
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

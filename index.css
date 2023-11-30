@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+:root {
+   --clr-dark: #161616;
+   --clr-gray: #292C31;
+   --clr-light: #ffffff;
+   --clr-theme: #1B3AF5;
+   --clr-hover: #84b6e1;
+   --clr-disabled: #b2b2b2;
+
+   --fs-big: 48px;
+   --fs-l: 24px;
+   --fs-m: 20px;
+   --fs-s: 16px;
+
+   --fw-regular: 400;
+   --fw-medium: 500;
+   --fw-bold: 700;
+
+   /* border-radius */
+   --br-s: 2px;
+   --br-m: 4px;
+   --br-l: 8px;
+   --br-img: 16px;
+
+   /* margin or padding */
+   --mp-button: 4px 10px;
+   --mp-text: 4px;
+   --mp-title: 12px;
+   --mp-img: 24px;
+   --mp-modal: 32px;
+   --mp-container: 64px;
+}
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html {
+   scroll-behavior: smooth;
+}
+body {
+   font-family: 'Poppins', sans-serif;
+   font-size: var(--fs-s);
+   font-weight: var(--fw-regular);
+   line-height: 1.75;
+   letter-spacing: 0.75px;
+
+   color: var(--clr-dark);
+   background-color: var(--clr-light);
+   padding: 30px;
+
+   width: 100vw;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+ul {
+   list-style: none;
+}
+a {
+   color: var(--clr-dark);
+   text-decoration: none;
+}
+button {
+   cursor: pointer;
+   background-color: var(--clr-dark);
+   color: var(--clr-light);
+   padding: var(--mp-button);
+   border: none;
+   border-radius: var(--br-m);
+   transition: 0.3s ease-in-out;
+}
+button:hover {
+   background-color: var(--clr-theme);
+}
+
+/* ---- Top section  */
+.container_top {
+   width: 380px;
+   margin-bottom: var(--mp-container);
+}
+.logo_text {
+   font-size: var(--fs-l);
+   font-weight: var(--fw-bold);
+   margin-bottom: var(--mp-text);
+}
+.logo_subtext {
+   font-weight: var(--fw-medium);
+}
+.airplane_img {
+   width: 100%;
+   border-radius: var(--br-img);
+   margin-top: var(--mp-img)
+}
+
+/* ---- Body section  */
+.date_flight {
+   color: red;
+   font-size: var(--fs-big);
+   font-weight: var(--fw-bold);
+}
+
+/* ---- ---- Flight Board  */
+.container_board {
+   width: 100%;
+}
+.container_board thead th {
+   width: 120px;
+}
+.container_board tbody tr {
+   height: 48px;
+}
+.btn_long {
+   padding: 8px 18px;
+}
+
+/* ---- ---- ---- Flight Modal  */
+.modal {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 380px;
+   min-height: 620px;
+   padding: var(--mp-modal);
+   border-radius: var(--br-l);
+   background-color: var(--clr-light);
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   z-index: 10;
+}
+.modal_bigText {
+   font-size: var(--fs-l);
+   font-weight: var(--fw-bold);
+}
+.modal_subText {
+   margin-bottom: var(--mp-title);
+}
+.space_css {
+   display: inline-block;
+   width: 20px;
+}
+.flight_tickets {
+   margin-top: var(--mp-title);
+}
+.ticket {
+   cursor: pointer;
+   padding: 10px;
+   border: 1px solid var(--clr-gray);
+   border-radius: var(--br-m);
+   margin-bottom: var(--mp-title);
+   transition: 0.5s ease-in-out;
+}
+.ticket:hover {
+   background-color: var(--clr-hover);
+}
+.ticket:active {
+   background-color: red;
+}
+.modal button {
+   padding: var(--mp-title);
+   margin-top: 10px;
+   margin-right: 12px;
+}
+.modal button:disabled {
+   background-color: var(--clr-disabled);
+   cursor: not-allowed;
+}
+
+/* ---- ---- ---- ---- Form Modal  */
+.container_form {
+   display: flex;
+   flex-direction: column;
+   margin: 20px 0;
+}
+.container_form label {
+   margin-bottom: var(--mp-title);
+}
+.container_form input {
+   float: right;
+   padding: var(--mp-text);
+   width: 180px;
+}
+.success_msg {
+   color: red;
+   font-weight: var(--fw-bold);
+   margin-top: var(--mp-text);
+}

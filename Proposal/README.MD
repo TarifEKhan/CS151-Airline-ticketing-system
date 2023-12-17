@@ -19,11 +19,16 @@ The Airline ticketing is a Java-based application. Our goal is to streamline the
 Functionality:
 Primary functionalities are as follows:
 
-i. User profile creation: Users will input their name, email, birthdate, and passport number to create their profile.
+i. Create user profile: Users will input their name, email, and desired password to create their profile. They can then use the auto-generated username to log into the system. 
 
-ii. Flight search and booking: Users will be able to search for flights based on their desired date, location, price, and layover duration. Users can then book their flights.
+ii. Search for flights: Users can search for flights based on these criteria: Departure/arrival location, departure/arrival date, layover preference, aircraft type, airline preference, etc. 
 
-iii. Reservation management: After booking, users will be able to cancel or change their reservation.
+iii. Select flight preferences: Users can select meal preferences, seat preferences, special accommodations, or luggage accommodations
+
+iv. Reserve flight: Users can reserve their flights and receive a confirmation number
+
+
+
 
 Operations:
 Here are the operations our users will be able to perform:
@@ -40,15 +45,16 @@ Search flights based on these criteria:
 
  iv. price
 
-Book selected flight
+Select preferred airline
 
-Change the following aspects of their reservation:
+Select preferred aircraft
 
- i. Date
+Select preferred layover duration
 
- ii. Layover duration
+Set flight preferences
 
- iii. Price.
+Reserve flight
+
 
 References
 I. Reed, J., & Reed, J. (2023). Modernizing legacy IT systems in the aviation industry. Avionics International. https://www.aviationtoday.com/2023/06/05/modernizing-legacy-it-systems-in-the-aviation-industry/
